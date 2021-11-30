@@ -1,0 +1,19 @@
+{
+  "name": "todoist_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./pom/tests/",
+    "test-multi": "testcafe chrome, firefox ./pom/tests/"
+  },
+  "author": "Jchavez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}
